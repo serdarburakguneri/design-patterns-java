@@ -1,5 +1,8 @@
 /*
+Factory patterns is useful for creating subclasses of an abstract class
+(or an interface)
 
+Client code should not care about the instance which factory created.
 */
 
 public class DemoApplication {
