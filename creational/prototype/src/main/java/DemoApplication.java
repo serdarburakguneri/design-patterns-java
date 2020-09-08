@@ -1,7 +1,7 @@
 /*
 Prototype pattern is used for lightweight instance creation.
 It can improve the performance if you often create heavy objects.
-In this example, we can assume that "medium" objects are hard to create
+In this example, we can assume that "medium" objects are hard to create when we use "new" keyword
 */
 
 import java.text.MessageFormat;
