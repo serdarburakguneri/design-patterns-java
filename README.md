@@ -5,3 +5,6 @@
 	b. factor
 	c. prototype
 	d. singleton
+
+2. Structural Patterns:
+	a. adapter	
