@@ -7,4 +7,5 @@
 	d. singleton
 
 2. Structural Patterns:
-	a. adapter	
+	a. adapter
+	b. bridge
