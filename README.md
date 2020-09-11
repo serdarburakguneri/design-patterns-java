@@ -10,3 +10,4 @@
 	a. adapter
 	b. bridge
 	c. composite
+	d. decorator
