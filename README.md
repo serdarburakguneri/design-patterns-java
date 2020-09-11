@@ -9,3 +9,4 @@
 2. Structural Patterns:
 	a. adapter
 	b. bridge
+	c. composite
