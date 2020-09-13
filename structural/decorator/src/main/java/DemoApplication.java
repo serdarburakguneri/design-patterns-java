@@ -2,7 +2,7 @@
 
 Decorator pattern enhances an interface of an object.
 
-In this example, SpringDataDependencyDecorator creates a template spring boot project.
+In this example, SpringBootProjectGenerator creates a template spring boot project.
 Dependency decorators add desired dependencies to the template project.
 
 */
