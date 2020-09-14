@@ -11,3 +11,4 @@
 	b. bridge
 	c. composite
 	d. decorator
+	e. flyweight
