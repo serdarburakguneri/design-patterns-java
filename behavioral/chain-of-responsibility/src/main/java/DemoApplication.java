@@ -1,30 +1,30 @@
 /*
-The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.
-Implementing the composite pattern lets clients treat individual objects and compositions uniformly
- */
 
-import composite.DevOpsEngineer;
-import composite.Developer;
-import composite.Employee;
-import composite.ProjectManager;
+Chain of responsibility is useful when we have different implementations
+of an abstract class with different responsibilities. A node in the chain
+takes the responsibility and applies its business regarding to its contract.
+
+The pattern promotes loose coupling.
+
+
+*/
 
 public class DemoApplication {
   public static void main(String[] args) {
 
-    Employee developer = new Developer("William");
+    FinanceEmployee accountant = new Accountant();
+    FinanceEmployee manager = new BudgetManager();
+    FinanceEmployee president = new President();
+    accountant.setAdministrator(manager);
+    manager.setAdministrator(president);
 
-    Employee devOps = new DevOpsEngineer("Thomas");
+    Payment payment1 = new Payment(150);
+    accountant.approve(payment1);
 
-    ProjectManager projectManager = new ProjectManager("Frank");
+    Payment payment2 = new Payment(1500);
+    accountant.approve(payment2);
 
-    projectManager.addSubWorker(developer);
-    projectManager.addSubWorker(devOps);
-
-    developer.work();
-    devOps.work();
-    projectManager.work();
-
-    projectManager.removeSubWorker(devOps);
-    projectManager.work();
+    Payment payment3 = new Payment(15000);
+    accountant.approve(payment3);
   }
 }

@@ -12,3 +12,6 @@
 	c. composite
 	d. decorator
 	e. flyweight
+
+3. Behavioral Patterns
+	a. chain of responsibility

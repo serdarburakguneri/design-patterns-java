@@ -1,9 +1,9 @@
-public abstract class PaymentHandler {
-  protected PaymentHandler nextHandler;
+public abstract class FinanceEmployee {
+  protected FinanceEmployee administrator;
 
-  public void setNextHandler(PaymentHandler paymentHandler) {
-    nextHandler = paymentHandler;
+  public void setAdministrator(FinanceEmployee financeEmployee) {
+    administrator = financeEmployee;
   }
 
-  public abstract void handle(Payment payment);
+  public abstract void approve(Payment payment);
 }
