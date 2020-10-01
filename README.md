@@ -2,7 +2,7 @@
 
 1. Creational Patterns:
 	a. builder
-	b. factor
+	b. factory
 	c. prototype
 	d. singleton
 
@@ -15,3 +15,4 @@
 
 3. Behavioral Patterns
 	a. chain of responsibility
+	b. command
