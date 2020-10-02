@@ -16,3 +16,4 @@
 3. Behavioral Patterns
 	a. chain of responsibility
 	b. command
+	c. mediator
