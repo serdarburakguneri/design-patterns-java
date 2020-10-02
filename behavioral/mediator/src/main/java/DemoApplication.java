@@ -16,11 +16,6 @@ public class DemoApplication {
     User loki = new User(mediator, "loki");
     User ironMan = new User(mediator, "iron man");
 
-    mediator.registerUser(captainAmerica);
-    mediator.registerUser(thor);
-    mediator.registerUser(loki);
-    mediator.registerUser(ironMan);
-
     UserAccessHandler accessHandler = new UserAccessHandler();
     accessHandler.blockUser(loki);
     mediator.setAccessHandler(accessHandler);

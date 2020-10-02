@@ -7,6 +7,7 @@ public class User {
   public User(Mediator mediator, String nickName) {
     this.mediator = mediator;
     this.nickName = nickName;
+    mediator.registerUser(this);
   }
 
   public void receiveMessage(User sender, String message) {
