@@ -17,3 +17,4 @@
 	a. chain of responsibility
 	b. command
 	c. mediator
+	d. observer
