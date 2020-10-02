@@ -1,6 +1,6 @@
 /*
 
-Mediator centralises the communication of different objects which causes loose coupling.
+Mediator centralises the communication of different objects which is useful loose coupling.
 
 In this example, communication logic is handled at mediator and users do not directly call each other.
 
